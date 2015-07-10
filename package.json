@@ -1,0 +1,39 @@
+{
+  "author": "Antonio Santiago <asantiagop@gmail.com> (http://acuriousanimal.com/blog)",
+  "name": "clyde",
+  "homepage": "https://github.com/acanimal/clyde-request-size-limiter",
+  "description": "Request size limiter filter for Clyde API gateway.",
+  "keywords": [
+    "clyde",
+    "filter",
+    "request",
+    "size",
+    "limiter"
+  ],
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/acanimal/clyde-request-size-limiter.git"
+  },
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js **/*.js",
+    "test": "./node_modules/mocha/bin/mocha test/**/*.test.js"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "raw-body": "^2.1.2"
+  },
+  "devDependencies": {
+    "clyde": "git+https://github.com/acanimal/clyde.git",
+    "eslint": "^0.24.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  }
+}
