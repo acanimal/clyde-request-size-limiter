@@ -1,6 +1,6 @@
 {
   "author": "Antonio Santiago <asantiagop@gmail.com> (http://acuriousanimal.com/blog)",
-  "name": "clyde",
+  "name": "clyde-request-size-limiter",
   "homepage": "https://github.com/acanimal/clyde-request-size-limiter",
   "description": "Request size limiter filter for Clyde API gateway.",
   "keywords": [
