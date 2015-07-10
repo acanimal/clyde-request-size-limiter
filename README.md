@@ -2,7 +2,7 @@
 
 Request size limiter filter for [Clyde](https://github.com/acanimal/clyde) API gateway, which allows blocks request depending on its body's length.
 
-> Implementation is based on on [raw-body](https://github.com/stream-utils/raw-body) module.
+> Implementation is based on [raw-body](https://github.com/stream-utils/raw-body) module.
 
 <!-- MarkdownTOC -->
 
