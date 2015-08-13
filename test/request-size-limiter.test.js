@@ -2,7 +2,7 @@
 
 var http = require("http"),
     path = require("path"),
-    clyde = require("clyde"),
+    clyde = require("clydeio"),
     request = require("supertest");
 
 
