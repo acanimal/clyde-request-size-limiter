@@ -4,17 +4,18 @@ Request size limiter filter for [Clyde](https://github.com/acanimal/clyde) API g
 
 > Implementation is based on [raw-body](https://github.com/stream-utils/raw-body) module.
 
-<!-- MarkdownTOC -->
+<!-- TOC depth:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Installation](#installation)
-- [Configuration](#configuration)
-  - [Examples](#examples)
-    - [Block requests with body longer than 100 bytes:](#block-requests-with-body-longer-than-100-bytes)
-    - [Blocks request with content length different than 1kb](#blocks-request-with-content-length-different-than-1kb)
-  - [Notes](#notes)
+- [Request Size Limiter Filter](#request-size-limiter-filter)
+	- [Installation](#installation)
+	- [Configuration](#configuration)
+	- [Examples](#examples)
+		- [Block requests with body longer than 100 bytes:](#block-requests-with-body-longer-than-100-bytes)
+		- [Blocks request with content length different than 1kb](#blocks-request-with-content-length-different-than-1kb)
+	- [Notes](#notes)
 - [License](#license)
 
-<!-- /MarkdownTOC -->
+<!-- /TOC -->
 
 ## Installation
 
@@ -38,7 +39,7 @@ The filter wraps the [raw-body](https://github.com/stream-utils/raw-body) module
   "prefilters" : [
     {
       "id" : "size-limiter",
-      "path" : "request-size-limiter",
+      "path" : "clydeio-request-size-limiter",
       "config" : {
         "limit" : "100b"
       }
@@ -55,7 +56,7 @@ The filter wraps the [raw-body](https://github.com/stream-utils/raw-body) module
   "prefilters" : [
     {
       "id" : "size-limiter",
-      "path" : "request-size-limiter",
+      "path" : "clydeio-request-size-limiter",
       "config" : {
         "length" : 1024
       }
