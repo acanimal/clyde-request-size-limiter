@@ -6,6 +6,7 @@ Request size limiter filter for [Clyde](https://github.com/acanimal/clyde) API g
 
 <!-- MarkdownTOC -->
 
+- [Installation](#installation)
 - [Configuration](#configuration)
   - [Examples](#examples)
     - [Block requests with body longer than 100 bytes:](#block-requests-with-body-longer-than-100-bytes)
@@ -14,6 +15,10 @@ Request size limiter filter for [Clyde](https://github.com/acanimal/clyde) API g
 - [License](#license)
 
 <!-- /MarkdownTOC -->
+
+## Installation
+
+`npm install clydeio-request-size-limiter --save`
 
 ## Configuration
 
